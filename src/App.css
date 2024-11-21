@@ -1,0 +1,42 @@
+.App {
+  background-color: gray;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  background-color: white;
+  height: 350px;
+  width: 700px;
+  margin: auto;
+  padding: 1em;
+  flex-wrap: wrap;
+}
+
+.left {
+  border: 1px solid red;
+  flex: 1;
+}
+
+.right {
+  border: 1px solid red;
+  flex: 3 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.right-1 {
+  border: 1px solid red;
+  flex: 2;
+}
+
+.right-2 {
+  border: 1px solid red;
+  flex: 1;
+}
